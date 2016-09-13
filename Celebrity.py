@@ -1,5 +1,6 @@
 from random import randrange
 def celebrity(G):
+    'solve the celebrity problem'
     n=len(G)
     u, v = 0, 1
     for celeb in range(2,n+1):
